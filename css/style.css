@@ -1,8 +1,40 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+#Wendy, #Wendy1, #Wendy2, #Wendy3 {
+    border: solid pink 2px
+    
+}
+
+#Wendy {
+    background-color: salmon;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#Wendy1 {
+    background-image: url("https://www.qualitydevs.com/wp-content/uploads/2017/12/desarrollador.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+#Wendy2{
+background-color:salmon
+}
+
+#Wendy3{
+    background-color: pink;
+    text-align: center;
+}
+
+#Wendy4{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+}
+
+img{
+    height: 50px;
+}
